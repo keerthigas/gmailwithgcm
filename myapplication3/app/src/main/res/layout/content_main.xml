@@ -3,11 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <TextView
+        android:text="@string/registering_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="akira welcomes u !! GCM  ON THE WAY "
-        android:id="@+id/txt1"/>
+        android:id="@+id/txt1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="107dp"
+        android:layout_height="82dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/txt2"
+        android:text="@string/rid"/>
 
 
 </LinearLayout>
